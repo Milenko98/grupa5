@@ -21,7 +21,10 @@ namespace RegClient
                 Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
                 try
-                {
+                { 
+
+
+                
                     socket.Connect(remoteEP);
 
                     Console.WriteLine("Socket connected to {0}", socket.RemoteEndPoint.ToString());
