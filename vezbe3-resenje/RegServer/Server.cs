@@ -28,6 +28,8 @@ namespace RegServer
 
 
 
+
+
                 serverSocket.Bind(localEndpoint);
                 serverSocket.Listen(10);
 
