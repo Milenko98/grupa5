@@ -25,6 +25,8 @@ namespace RegServer
 
             try
             {
+
+
                 serverSocket.Bind(localEndpoint);
                 serverSocket.Listen(10);
 
