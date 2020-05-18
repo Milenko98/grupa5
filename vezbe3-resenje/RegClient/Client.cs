@@ -22,6 +22,7 @@ namespace RegClient
 
                 try
                 {
+
                     socket.Connect(remoteEP);
 
                     Console.WriteLine("Socket connected to {0}", socket.RemoteEndPoint.ToString());
